@@ -45,8 +45,8 @@ let e3 = [u[1],-u[0]]; //switch up and down
 $$\mathbf{v} = cos(\alpha)\cdot \mathbf{e_1} + sin(\alpha)\cdot \mathbf{e_2}$$
 $$\mathbf{v_1} = cos(\alpha)\cdot \mathbf{e_1} + sin(\alpha)\cdot \mathbf{e_3}$$
 and then the tangent points themselves.
-$$P = A + d\cdot\bm{v}$$
-$$P_1 = A + d\cdot\bm{v_1}$$
+$$P = A + d\cdot\mathbf{v}$$
+$$P_1 = A + d\cdot\mathbf{v_1}$$
 
 ```
 let v = [Math.cos(alpha)*e1[0]+Math.sin(alpha)*e2[0], Math.cos(alpha)*e1[1]+Math.sin(alpha)*e2[1]];

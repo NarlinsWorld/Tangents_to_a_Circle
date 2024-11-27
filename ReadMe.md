@@ -42,8 +42,8 @@ let e3 = [u[1],-u[0]]; //switch up and down
 ```
 
 5) Using these basis vectors, we can build vectors to our tangent points.
-$$\bm{v} = cos(\alpha)\cdot e_1 + sin(\alpha)\cdot e_2$$
-$$\bm{v_1} = cos(\alpha)\cdot e_1 + sin(\alpha)\cdot e_3$$
+$$\mathbf{v} = cos(\alpha)\cdot \mathbf{e_1} + sin(\alpha)\cdot \mathbf{e_2}$$
+$$\mathbf{v_1} = cos(\alpha)\cdot \mathbf{e_1} + sin(\alpha)\cdot \mathbf{e_3}$$
 and then the tangent points themselves.
 $$P = A + d\cdot\bm{v}$$
 $$P_1 = A + d\cdot\bm{v_1}$$
